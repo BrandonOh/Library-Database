@@ -9,7 +9,7 @@ CREATE TABLE tbl_Library_Branch (
 );
 
 CREATE TABLE tbl_Borrower (
-	CardNo INT PRIMARY KEY NOT NULL IDENTITY (1,1),
+	CardNo VARCHAR(50) PRIMARY KEY NOT NULL,
 	Customer VARCHAR (50),
 	AddressName VARCHAR(50),
 	PhoneNum VARCHAR(50)
@@ -30,7 +30,7 @@ CREATE TABLE tbl_Books (
 CREATE TABLE tbl_Book_Loans (
 	BookID INT NOT NULL FOREIGN KEY REFERENCES tbl_Books(BookID),
 	BranchID INT NOT NULL FOREIGN KEY REFERENCES tbl_Library_Branch(BranchID),
-	CardNo INT NOT NULL FOREIGN KEY REFERENCES tbl_Borrower(CardNo),
+	CardNo VARCHAR(50) NOT NULL FOREIGN KEY REFERENCES tbl_Borrower(CardNo),
 	DateOut DATE NOT NULL,
 	DateDue DATE NOT NULL
 );

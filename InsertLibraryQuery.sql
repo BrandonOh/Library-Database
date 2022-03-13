@@ -47,7 +47,7 @@ INSERT INTO tbl_Books (
 	Title,PublisherName
 )VALUES
 	('Have a Little Faith: a True Story','Cruz Grimes'),
-	('The Lost Trbie','Alonna Seal'),
+	('The Lost Tribe','Alonna Seal'),
 	('Torment of Shadows','Alonna Seal'),
 	('The Last Prophet','Alonna Seal'),
 	('The Communist Manifesto','Benicio Shipp'),

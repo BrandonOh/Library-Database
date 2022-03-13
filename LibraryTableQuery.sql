@@ -53,31 +53,3 @@ SELECT * FROM tbl_Books;
 SELECT * FROM tbl_Borrower;
 SELECT * FROM tbl_Library_Branch;
 SELECT * FROM tbl_Publisher;
-
-INSERT INTO tbl_Library_Branch(
-	BranchName,
-	AddressName
-)VALUES
-	('Sharptown','Baker Street'),
-	('Gary Borrows','Mel Brook Drive'),
-	('Terrace Ville','Any Time Boulvard'),
-	('Jerry BaleTown','Carrer Street'),
-	('Lemon Square','Down Town Place'),
-	('Carrer City','Lime Street')
-;
-
-INSERT INTO tbl_Borrower (
-	Customer,
-	AddressName,
-	PhoneNum
-)VALUES
-	('Emanuel Joyner','Hanover Court','202-918-2132'),
-	('Marius Dickerson','Carriage Lane','239-399-4156'),
-	('Kameron Gough','Gartner Ave','216-594-6223'),
-	('Kathryn Peters','Golden Star Street','432-549-4311'),
-	('Mara Mercado','Golf Ave','240-581-3306'),
-	('Sahib Robins','Sulphur Springs Street','201-865-8906'),
-	('Ella-Mae Wilks','Maple Street','302-708-2422'),
-	('Anne Adkins','Ashley Court','501-461-5660')
-;
-
